@@ -199,7 +199,7 @@ nav.scrolled {
         top: 40px;
     }
     .dr_strange{
-        top: 30%;
+        top: 20%;
         width: 16%;
     }
 }
@@ -225,7 +225,7 @@ nav.scrolled {
         top: 80px;
     }
     .dr_strange{
-        top: 30%;
+        top: 20%;
         width: 16%;
     }
 }
@@ -248,10 +248,36 @@ nav.scrolled {
         margin: 8px;
     }
     .cloud-image{
-        top: 70px;
+        top: 120px;
     }
     .dr_strange{
-        top: 30%;
+        top: 20%;
+        width: 16%;
+    }
+}
+@media (max-width:760px){
+    .header{
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;    
+        position: fixed;
+        top: 7%;
+        left: 50%;
+        z-index: 10;
+    }
+    .nav_elements{
+        font-size: 20px;
+    }
+    #logo{
+        width: 13%;
+        margin: 8px;
+    }
+    .cloud-image{
+        top: 130px;
+    }
+    .dr_strange{
+        top: 20%;
         width: 16%;
     }
 }
